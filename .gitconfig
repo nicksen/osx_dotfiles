@@ -76,3 +76,7 @@
 
 [push]
 	default = matching
+
+[user]
+        name = Nicklas Moberg
+        email = nicklas@nicks.se
