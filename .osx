@@ -662,6 +662,13 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
+# Security                                                                    #
+###############################################################################
+
+# Enable secure virtual memory.
+defaults write /Library/Preferences/com.apple.virtualMemory UseEncryptedSwap -bool yes
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
