@@ -146,8 +146,3 @@ command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.e
 # Easily switch between `io.js` and `Node.js`
 alias use-iojs="brew unlink node && brew link --force iojs"
 alias use-node="brew unlink iojs && brew link --force node"
-
-# NICKSEN
-alias psa="ps -ef"
-alias quit="exit"
-alias q="exit"

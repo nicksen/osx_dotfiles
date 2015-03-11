@@ -22,18 +22,3 @@ export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
-
-# NICKSEN
-export HOMEBREW_GITHUB_API_TOKEN="257a0a489f84395f5b39217ad293cfd4524281f5"
-
-export ANDROID_HOME="$(brew --prefix android)"
-
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home"
-
-export SCALATRA_JREBEL="/usr/local/bin/jrebel/jrebel.jar"
-
-export GOPATH="$HOME/Develop/Go"
-
-export JBOSS_HOME="$(brew --prefix jboss-as)/libexec"
-
-export SBT_OPTS="$SBT_OPTS -Dsbt.jse.engineType=Node"
