@@ -199,7 +199,7 @@ function getcertnames() {
 
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
-function s() {
+function sbl() {
 	if [ $# -eq 0 ]; then
 		subl .;
 	else
@@ -209,13 +209,13 @@ function s() {
 
 # `a` with no arguments opens the current directory in Atom Editor, otherwise
 # opens the given location
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
+#function a() {
+#	if [ $# -eq 0 ]; then
+#		atom .;
+#	else
+#		atom "$@";
+#	fi;
+#}
 
 # `v` with no arguments opens the current directory in Vim, otherwise opens the
 # given location
