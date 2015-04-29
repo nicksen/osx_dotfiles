@@ -142,7 +142,3 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
-
-# Easily switch between `io.js` and `Node.js`
-alias use-iojs="brew unlink node && brew link --force iojs"
-alias use-node="brew unlink iojs && brew link --force node"
